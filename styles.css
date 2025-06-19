@@ -1,0 +1,76 @@
+body {
+  font-family: 'Comic Sans MS', 'Segoe UI', sans-serif;
+  background: #e0f7fa; /* azul cielo claro */
+  color: #333;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #4fc3f7; /* azul cielo fuerte */
+  color: white;
+  padding: 2rem 1rem;
+  text-align: center;
+  border-bottom: 5px solid #0288d1;
+}
+
+.subtitulo {
+  font-size: 1.3rem;
+  margin-top: 0.5rem;
+  font-style: italic;
+}
+
+main {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #0288d1;
+  font-size: 1.8rem;
+  margin-top: 2rem;
+}
+
+h3 {
+  color: #039be5;
+  margin-top: 1.2rem;
+}
+
+ul.sellos, ul.leyendas {
+  list-style-type: "🌟 ";
+  margin-left: 1.5rem;
+  font-size: 1.1rem;
+}
+
+a {
+  color: #0277bd;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #01579b;
+}
+
+.referencia {
+  background-color: #b3e5fc;
+  border-left: 5px solid #0288d1;
+  padding: 1rem;
+  margin-top: 2rem;
+  font-size: 1rem;
+  border-radius: 10px;
+}
+
+footer {
+  background-color: #4fc3f7;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 3rem;
+  font-size: 0.95rem;
+  border-top: 5px solid #0288d1;
+}
